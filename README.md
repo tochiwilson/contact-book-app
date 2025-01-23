@@ -1,14 +1,10 @@
 # Contact Book Application  
-A simple Python application to manage contacts. Add, edit, delete, and search contacts with a user-friendly interface.  
-
----
+A simple Python application to manage contacts. Add, edit, delete, and search contacts with a user-friendly interface.
 
 ## Features  
 - Add, edit, and delete contacts  
 - Search contacts with fuzzy matching  
-- Data persistence using a CSV file, ensuring contacts are saved and reloaded upon restarting the application  
-
----
+- Data persistence using a CSV file, ensuring contacts are saved and reloaded upon restarting the application
 
 ## Requirements  
 - Python 3.x  
@@ -19,8 +15,6 @@ To install the required library, run:
 pip install rapidfuzz  
 ```
 
----
-
 ## How to Run  
 1. Clone or download this repository.  
 2. Make sure you have Python 3.x installed.  
@@ -28,9 +22,7 @@ pip install rapidfuzz
 4. Run the application by executing:  
 ```bash  
 python main.py  
-```  
-
----
+```
 
 ## How It Works  
 1. On startup, the application loads contacts from a CSV file (`contact_list.csv`). If the file doesn’t exist, it will be created automatically.  
@@ -41,16 +33,13 @@ python main.py
    - Search for contacts using fuzzy matching, which allows for partial matches or handling of typos.  
 3. All changes are saved back to the CSV file automatically.  
 
----
-
 ## File Structure  
 ```plaintext  
 project-folder/  
 ├── main.py          # Main application logic  
 ├── contact.py       # Contact class definition  
 ├── contact_list.csv # Stores contact information  
-```  
----
+```
 
 ## Future Enhancements / Challenges  
 Here are some ideas to extend the functionality of this project:  
@@ -90,5 +79,3 @@ Here are some ideas to extend the functionality of this project:
 
 12. **REST API:**  
     Develop a RESTful API to interact with the contact book, making it accessible to other applications or services.  
-
----  
